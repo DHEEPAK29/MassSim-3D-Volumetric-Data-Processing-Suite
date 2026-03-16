@@ -15,6 +15,10 @@ $$X[k] = \sum_{n=0}^{N-1} x[n] \cdot e^{-i 2\pi \frac{kn}{N}}$$
 *   **Process:** Multiplies samples by a complex exponential to detect periodic resonance.
 *   **Output:** Complex numbers representing **Magnitude** (Strength) and **Phase** (Timing).
 
+<img src="dft.png" alt="Description" width="700">
+
+<img src="simVol.png" alt="Description" width="700">
+
 ### Integration Code (Python)
 
 ```python
